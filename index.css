@@ -97,6 +97,14 @@ main {
   }
 
   .produto {
-      max-width: 100%;
+      max-width: 80%;
+  }
+
+  .title {
+    padding: 0 20px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 }
