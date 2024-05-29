@@ -1,109 +1,100 @@
-/* styles.css */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
 }
 
 header {
-  background-color: #333;
-  color: white;
-  padding: 1em 0;
+  width: 100%;
+  padding: 20px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: #000;
+}
+
+header .banner {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  font-size: 20px;
 }
 
-header img {
-  max-height: 50px;
-  margin-left: 20px;
-}
-
-nav ul {
-  list-style: none;
+.catalogo {
   display: flex;
-  margin: 0;
-  padding: 0;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
 
-nav ul li {
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-section {
+.produto {
+  background-color: #fff;
+  border: 2px solid #d32f2f;
+  border-radius: 10px;
   padding: 20px;
+  max-width: 280px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-#home img {
+.produto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.produto-imagem {
   width: 100%;
   height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-.produtos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-#produtos .produto {
-  border: 1px solid #ccc;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-#produtos .produto img {
-  max-width: 293px;
-  margin-right: 20px;
-}
-
-#produtos h3 {
-  margin-top: 0;
-}
-
-#contato form {
-  display: flex;
-  flex-direction: column;
-}
-
-#contato label {
-  margin: 10px 0 5px;
-}
-
-#contato input, #contato textarea {
-  padding: 10px;
+.produto-descricao {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  text-transform: lowercase;
 }
 
-#contato button {
-  padding: 10px;
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
+.produto-valor {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
 }
 
-#contato button:hover {
-  background-color: #555;
+.produto-texto {
+  font-size: 16px;
+  color: #333;
+  text-transform: lowercase;
 }
 
-#quemsomos {
-  text-align: center;
-}
+@media (max-width: 768px) {
+  .catalogo {
+      flex-direction: column;
+      align-items: center;
+  }
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
+  .produto {
+      max-width: 100%;
+  }
 }
