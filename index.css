@@ -5,7 +5,9 @@ body {
   box-sizing: border-box;
   background-color: #000;
   color: #fff;
+  background-image: url("./assets/fundo.jpg");
 }
+
 
 header {
   width: 100%;
