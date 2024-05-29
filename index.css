@@ -1,5 +1,79 @@
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Titillium Web", sans-serif; 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,21 +85,19 @@ body {
 
 header {
   width: 100%;
-  padding: 20px 0;
   display: flex;
   justify-content: center;
   background-color: #000;
 }
 
 header .banner {
-  width: 80%;
+  width: 90%;
   height: auto;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 main {
-  padding: 40px 20px;
+  padding: 0px 20px 40px 20px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -36,6 +108,7 @@ main {
   align-items: center;
   text-align: center;
   font-size: 20px;
+  margin: 0 0 30px 0;
 }
 
 .catalogo {
@@ -106,5 +179,9 @@ main {
 
   h3 {
     font-size: 18px;
+  }
+
+  .none {
+    display: none !important;
   }
 }
