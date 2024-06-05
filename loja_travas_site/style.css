@@ -2,7 +2,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 25%, rgba(255,117,0,1) 50%, rgba(2,0,36,1) 75%, rgba(255,117,0,1) 100%);
         }
 
         .header {
@@ -27,7 +28,7 @@
             width: 100%;
             background: #fff;
             border: 2px;
-            border-radius: 5px;
+            border-radius: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
