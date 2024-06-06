@@ -68,6 +68,9 @@
         .desc {
         	background-color: #ee5e17;
         }
+        .desc-cinza {
+        	background-color: #d1d1d1;
+        }
 
         .product-details .price {
         	color: #e60000;
