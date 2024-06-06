@@ -49,15 +49,24 @@
             flex: 1;
         }
 
-        .product-details h1 {
-            margin: 0;
-            padding: 0;
-            color: #333;
+        .product-details .title,
+        .product-details .price {
+            color: #000000;
+            background-color: #d1d1d1;
+            border-radius: 5px;
         }
 
-        .product-details p {
-            margin: 10px 0;
-            color: #454545;
+        .title,
+        .desc,
+        .price {
+            font-size: 70px;
+            padding: 20px;
+            margin: 10px;
+
+        }
+
+        .desc {
+            background-color: #ee5e17;
         }
 
         .product-details .price {
@@ -72,11 +81,4 @@
             position: fixed;
             width: 100%;
             bottom: 0;
-        }
-
-        .product-details h1,
-        .product-details p,
-        .product-details .price {
-            font-size: 70px;
-
         }
