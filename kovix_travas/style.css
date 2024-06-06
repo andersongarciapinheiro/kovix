@@ -22,8 +22,9 @@
         }
 
         .product {
-					position: relative;
+        	position: relative;
         	display: flex;
+					align-items: center;
         	margin: 20px 20px;
         	padding: 40px 20px;
         	width: 100%;
@@ -59,6 +60,7 @@
 
         .title,
         .desc,
+				.desc2,
         .price {
         	font-size: 70px;
         	padding: 20px;
@@ -67,8 +69,13 @@
         }
 
         .desc {
-        	background-color: #ee5e17;
+        	background-color: #ff0202;
         }
+        .desc2 {
+        	background-color: #404040;
+					color: #ffffff;
+        }
+
         .desc-cinza {
         	background-color: #d1d1d1;
         }
@@ -87,17 +94,18 @@
         	bottom: 0;
         }
 
-				.logo {
-					width: 200px;
-					position: absolute;
-					opacity: 0.3;
-					right: 50px;
-					bottom: 20px;
-				}
-				.logo img {
-					width: 100%;
-				}
+        .logo {
+        	width: 200px;
+        	position: absolute;
+        	opacity: 0.3;
+        	right: 50px;
+        	bottom: 20px;
+        }
 
-				.price {
-					display: none;
-				}
+        .logo img {
+        	width: 100%;
+        }
+
+        /* .price {
+        	display: none;
+        } */
