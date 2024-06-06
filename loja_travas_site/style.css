@@ -97,3 +97,7 @@
 				.logo img {
 					width: 100%;
 				}
+
+				.price {
+					display: none;
+				}
