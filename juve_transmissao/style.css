@@ -9,8 +9,11 @@
         .header {
         	background-color: #000;
         	color: #fff;
-        	padding: 20px;
         	text-align: center;
+        }
+
+        .header img {
+        	width: 100%;
         }
 
         .container {
@@ -30,7 +33,7 @@
         	width: 100%;
         	background: #fff;
         	border: 2px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .product-title {
@@ -41,23 +44,23 @@
         	width: 100%;
         	background: #636363;
         	border: 2px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);	
+        	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-		.desc-title p,
-		.desc-p {
-			font-size: 50px;
-			font-weight: bold;
-			color: #ffffff;
-		}
+        .desc-title p,
+        .desc-p {
+        	font-size: 50px;
+        	font-weight: bold;
+        	color: #ffffff;
+        }
 
-		.desc-title {
-			width: 85%;
-		}
+        .desc-title {
+        	width: 85%;
+        }
 
-		.desc-p {
-			width: 15%;
-		}
+        .desc-p {
+        	width: 15%;
+        }
 
         .product-image {
         	display: flex;
