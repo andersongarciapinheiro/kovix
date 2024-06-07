@@ -53,18 +53,13 @@
         }
 
         .product-details>p:nth-child(1) {
-        	width: 30%;
-        	height: 160px;
+        	width: 85%;
+        	height: 120px;
         }
 
         .product-details>p:nth-child(2) {
-        	width: 60%;
-        	height: 160px;
-        }
-
-        .product-details>p:nth-child(3) {
-        	width: 10%;
-        	height: 160px;
+        	width: 15%;
+        	height: 120px;
         }
 
         .product-details .title,
@@ -77,8 +72,8 @@
         .title,
         .desc,
         .price {
-        	font-size: 70px;
-        	padding: 20px;
+        	font-size: 50px;
+        	padding: 10px;
         	margin: 10px;
 
         }
