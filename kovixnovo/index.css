@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    display: block;
+    border: 0;
+}
+
+
+.titillium-web-extralight {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.titillium-web-light {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.titillium-web-regular {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titillium-web-semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.titillium-web-bold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.titillium-web-black {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.titillium-web-light-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.titillium-web-regular-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.titillium-web-bold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.banner {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 0 30px 0;
+    font-size: 30px;
+    font-family: Titillium;
+}
+
+h3 {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: #eb2900;
+}
+
+.cod-header,
+.desc-header,
+.valor-header {
+    padding: 5px 8px;
+}
+
+.data-container {
+    display: flex;
+    width: 100%;
+}
+
+.produto {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+}
+
+.cod,
+.desc,
+.valor {
+    padding: 0px 5px;
+}
+
+.cod,
+.cod-header {
+    width: 10%;
+}
+
+.desc,
+.desc-header {
+    width: 50%;
+}
+
+.valor,
+.valor-header {
+    width: 10%;
+}
