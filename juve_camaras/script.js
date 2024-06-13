@@ -2,20 +2,18 @@ document.addEventListener('DOMContentLoaded', function () {
 	fetch('https://sheetdb.io/api/v1/2gdcb6wiv7t6v?sheet=Precifica%C3%A7%C3%A3o%20-%20Camaras')	
 		.then(response => response.json())
 		.then(data => {
-			const container = document.getElementById('data-container');
+			const container = document.querySelector('.container');
 			data.forEach(item => {
-				const img = item.Imagem;
-				const codigo = item.Codigo;
-				const descricao = item.Descrição;
-				const valorFinal = item["Valor final\n"];
+				const img = item.img;
+				const valor = item.Venda;
 
 				const dataDiv = document.createElement('div');
-				dataDiv.classList.add('produto')
+				dataDiv.classList.add('product')
 				dataDiv.innerHTML = `
-									<div class="img"><img src="${img}" alt="" srcset=""></div>
-									<div class="cod"><p>${codigo}</p></div>
-									<div class="desc"><p>${descricao}</p></div>
-									<div class="valor"><p>${valorFinal}</p></div>
+									<div class="product-details">
+										<img src="${img}" alt="">
+										<p class="price">PREÇO <span>${valor}</span></p>
+									</div>
 						`;
 				container.appendChild(dataDiv);
 				linesColor()
