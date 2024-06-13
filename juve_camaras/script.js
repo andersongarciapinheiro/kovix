@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
 				dataDiv.innerHTML = `
 									<div class="product-details">
 										<img src="${img}" alt="">
-										<p class="price">PARA VALORES CONSULTE O SEU REPRESENTANTE</p>
+										// <p class="price">PREÇO <span>${valor}</span></p>
 										</div>
 										`;
-										// <p class="price">PREÇO <span>${valor}</span></p>
-				container.appendChild(dataDiv);
+										// <p class="price">PARA VALORES CONSULTE O SEU REPRESENTANTE</p>
+										container.appendChild(dataDiv);
 				linesColor()
 			});
 		})
