@@ -85,7 +85,7 @@
         	width: 100%;
 			position: absolute;
 			text-align: center;
-			bottom: 4.5%;
+			bottom: 5%;
         }
 
         .product-details .title,
@@ -97,7 +97,7 @@
         .title,
         .desc,
         .price {
-        	font-size: 3vw;
+        	font-size: 2vw;
         	padding: 10px;
         	margin: 10px;
 
