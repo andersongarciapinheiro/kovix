@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-	fetch('https://sheetdb.io/api/v1/2gdcb6wiv7t6v?sheet=Precifica%C3%A7%C3%A3o%20-%20Camaras')	
+	fetch('https://sheetdb.io/api/v1/2gdcb6wiv7t6v?sheet=Precifica%C3%A7%C3%A3o%20-%20Camaras')
 		.then(response => response.json())
 		.then(data => {
 			const container = document.querySelector('.container');
@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
 										// <p class="price">PREÇO <span>${valor}</span></p>
 										</div>
 										`;
-										// <p class="price">PARA VALORES CONSULTE O SEU REPRESENTANTE</p>
-										container.appendChild(dataDiv);
+				// <p class="price">PARA VALORES CONSULTE O SEU REPRESENTANTE</p>
+				container.appendChild(dataDiv);
 				linesColor()
 			});
 		})
@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
 function linesColor() {
 	let lines = document.querySelectorAll(".product")
 	lines.forEach((i, index) => {
-			if(!Number.isInteger(index/2)) {
-					i.style.backgroundColor = '#dfdfdf'
-			} 
+		if (!Number.isInteger(index / 2)) {
+			i.style.backgroundColor = '#dfdfdf'
+		}
 	})
 }
