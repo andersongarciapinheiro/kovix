@@ -58,3 +58,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('search');
   searchInput.addEventListener('input', filterProducts);
 });
+
+function openMenu() {
+  let buttonMenu = document.querySelector(".button-menu")
+  let navMenu = document.querySelector("nav")
+  buttonMenu.addEventListener('click', function () {
+    navMenu.classList.toggle('opened')
+  })
+}
+
+openMenu()
