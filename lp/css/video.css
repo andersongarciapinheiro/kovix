@@ -1,0 +1,91 @@
+.videos-content {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.videos {
+  margin: 10px;
+  position: relative;
+  display: block;
+  width: 540px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 3px ridge #c2aa4b;
+  cursor: pointer;
+}
+
+.videos > div {
+  position: absolute;
+  transition: .5s ease-in-out;
+}
+
+.videos > div > h3 {
+  position: relative;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  text-shadow: 0px 2px 5px #000;
+}
+
+.videos > div:nth-child(1) {
+  padding: 10px 10px 10px;
+  text-align: left;
+  white-space: nowrap; 
+  width: 75px; 
+  overflow: hidden;
+  text-overflow: clip; 
+  background-color: #00000060;
+  box-shadow: 0 0 10px #000000;
+  z-index: 3;
+}
+
+.videos > div:nth-child(2) {
+  z-index: 1;
+}
+
+.videos > div:nth-child(3) {
+  z-index: 0;
+}
+
+
+.videos > div > img {
+  width: 100%;
+}
+
+.videos:hover > div:nth-child(1)  {
+  width: 100%; 
+}
+.videos:hover > div:nth-child(2) {
+  transform: scale(1.05) translateY(3%);
+}
+
+
+.videos:active {
+  background-color: #080808;
+}
+
+.video-off {
+  display: none;
+}
+
+.video-on {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000f1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+
+
+

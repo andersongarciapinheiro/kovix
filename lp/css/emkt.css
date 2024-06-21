@@ -1,0 +1,82 @@
+.emkt-content {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.emkt {
+  margin: 10px;
+  position: relative;
+  display: block;
+  height: 700px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 3px ridge #c2aa4b;
+}
+
+.emkt > div {
+  position: absolute;
+  transition: .5s ease-in-out;
+}
+
+
+.emkt::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+.emkt::-webkit-scrollbar-thumb{
+  background-color: #555555;
+  border-radius: 10px;
+}
+
+.emkt > div:nth-child(1) {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  background-color: #00000060;
+  box-shadow: 0 0 10px #000000;
+  z-index: 3;
+}
+
+.emkt > div:nth-child(2) {
+  z-index: 1;
+}
+
+.emkt > div:nth-child(3) {
+  z-index: 0;
+}
+
+
+.emkt > div > img {
+  width: 100%;
+}
+
+.emkt:active {
+  background-color: #080808;
+}
+
+.video-off {
+  display: none;
+}
+
+.video-on {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000f1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+
+
+

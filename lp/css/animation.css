@@ -1,0 +1,24 @@
+p {
+  letter-spacing: 0.2em;
+  line-height: 1;
+  padding: .25em 0 .325em;
+  text-shadow: 0 0 100px rgba(255, 255, 255, 1);
+  background: url(../images/animated-text-fill.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: aitf 80s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+
+@keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Typhography */
+
+
+@font-face {
+	font-family: "ArchivoBlack-Regular";
+	src: url(../font/ArchivoBlack-Regular.woff);
+}
+
+
+body {
+	font-family: 'ArchivoBlack-Regular';
+	letter-spacing: .6px;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/* COPIAR O HEX ABAIXO:
+
+007a, 0078, 0063, 0076, 0062, 006e, 006d, 002c, 002e, 002f, 0027, 003b, 006c, 006b, 006a, 0068,
+0067, 0066, 0064, 0073, 0061, 0071, 0077, 0065, 0072, 0074, 0079, 0075, 0069, 006f, 0070, 005d, 
+005b, 007b, 007d, 007c, 0022, 003a, 003f, 003e, 003c, 003d, 002d, 0030, 0039, 0038, 0037, 0036, 
+0035, 0034, 0033, 0032, 0031, 0060, 02dc, 0021, 0040, 0023, 0024, 0025, 02c6, 0026, 002a, 0028, 
+0029, 005f, 002b, 007e, 000a, 005a, 0058, 0043, 0056, 0042, 004e, 004d, 004c, 004b, 004a, 0048, 
+0047, 0046, 0044, 0053, 0041, 0051, 0057, 0045, 0052, 0054, 0059, 0055, 0049, 004f, 0050, 00e4, 
+00e1, 00e0, 00e2, 00e3, 00aa, 00c4, 00c1, 00c0, 00c2, 00c3, 00eb, 00e9, 00e8, 00ea, 00cb, 00c9, 
+00c8, 00ca, 0020, 000a, 00ed, 00ee, 00ef, 00ec, 00cd, 00ce, 00cf, 00cc, 00f6, 00f3, 00f2, 00f4, 
+00f5, 00ba, 00d6, 00d3, 00d2, 00d4, 00d5, 00fc, 00fa, 00f9, 00fb, 00dc, 00da, 00d9, 00db, 00e7, 
+00c7, 00f1, 00d1, 005c
+
+(CARACTERES PARA CONSTRUÇÃO DA FONTE)
+zxcvbnm,./';lkjhgfdsaqwertyuiop][{}|":?><=-0987654321`˜!@#$%ˆ&*()_+~
+ZXCVBNMLKJHGFDSAQWERTYUIOPäáàâãªÄÁÀÂÃëéèêËÉÈÊ 
+íîïìÍÎÏÌöóòôõºÖÓÒÔÕüúùûÜÚÙÛçÇñÑ\
+
+*/
