@@ -62,8 +62,21 @@ document.addEventListener('DOMContentLoaded', () => {
 function openMenu() {
   let buttonMenu = document.querySelector(".button-menu")
   let navMenu = document.querySelector("nav")
+  let header = document.querySelector('header');
+  let heightHeader = header.offsetHeight;
+  let heightNav = navMenu.offsetHeight;
+  let heightFinal = heightHeader - heightNav + 60
+  navMenu.style.top = heightFinal+"px"
+  let key = true
+
   buttonMenu.addEventListener('click', function () {
-    navMenu.classList.toggle('opened')
+    if(key) {
+      key = false
+      navMenu.style.top = heightHeader+"px"
+    } else {
+      key = true
+      navMenu.style.top = heightFinal+"px"
+    }
   })
 }
 
