@@ -58,3 +58,26 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('search');
   searchInput.addEventListener('input', filterProducts);
 });
+
+function openMenu() {
+  let buttonMenu = document.querySelector(".button-menu")
+  let navMenu = document.querySelector("nav")
+  let header = document.querySelector('header');
+  let heightHeader = header.offsetHeight;
+  let heightNav = navMenu.offsetHeight;
+  let heightFinal = heightHeader - heightNav + 60
+  navMenu.style.top = heightFinal+"px"
+  let key = true
+
+  buttonMenu.addEventListener('click', function () {
+    if(key) {
+      key = false
+      navMenu.style.top = heightHeader+"px"
+    } else {
+      key = true
+      navMenu.style.top = heightFinal+"px"
+    }
+  })
+}
+
+openMenu()
