@@ -78,6 +78,7 @@ h2 {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
+  font-size: 50px;
 }
 
 p {
@@ -93,7 +94,7 @@ p {
   flex-wrap: wrap;
   border: 1px solid #ddd;
   padding: 20px;
-  width: 32%;
+  width: 48%;
   box-sizing: border-box;
 }
 
