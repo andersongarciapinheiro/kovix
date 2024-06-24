@@ -41,7 +41,6 @@ function loadCatalog(catalogData) {
 function filterProducts() {
   const searchInput = document.getElementById('search').value.toLowerCase();
   const products = document.querySelectorAll('.product');
-
   products.forEach(product => {
     const productName = product.getAttribute('data-nome');
     if (productName.includes(searchInput)) {
@@ -52,11 +51,24 @@ function filterProducts() {
   });
 }
 
+function closeTitle() {
+  const section = document.querySelectorAll('section');
+  section.forEach(i => {
+    if(i.offsetHeight < 10) {
+      i.previousElementSibling.style.display = 'none'
+    } else {
+      i.previousElementSibling.style.display = 'flex'
+    }
+  })
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
   loadCatalog(catalogData);
 
   const searchInput = document.getElementById('search');
   searchInput.addEventListener('input', filterProducts);
+  searchInput.addEventListener('input', closeTitle);
 });
 
 function openMenu() {
