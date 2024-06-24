@@ -34,25 +34,28 @@ hr {
 }
 
 .produtos>li {
-  color: #ffffffb6;
+  color: #b6b6b6;
   padding: 20px;
   font-size: 25px;
   transition: 0.1s;
   box-sizing: border-box;
   cursor: pointer;
+  font-weight: bold;
+  opacity: 0.6;
+
 }
 
 .produtos>li:hover {
-  color: #ffffff;
+  text-decoration:underline;
+  opacity: 1;
 }
 
 .produtos>li:nth-child(1)::before {
-  content: 'K'
+  content: 'K';
 }
 
 .produtos>li:nth-child(1):hover::before {
-  font-weight: bold;
-  color: #ffffff;
+  color: #eb2900;
 }
 
 .produtos>li:nth-child(2)::before {
@@ -60,8 +63,7 @@ hr {
 }
 
 .produtos>li:nth-child(2):hover::before {
-  font-weight: bold;
-  color: #ffffff;
+  color: #eb2900;
 }
 
 .produtos>li:nth-child(3)::before {
@@ -69,8 +71,7 @@ hr {
 }
 
 .produtos>li:nth-child(3):hover::before {
-  font-weight: bold;
-  color: #ffffff;
+  color: #eb2900;
 }
 
 .produtos>li:nth-child(4)::before {
@@ -78,8 +79,7 @@ hr {
 }
 
 .produtos>li:nth-child(4):hover::before {
-  font-weight: bold;
-  color: #ffffff;
+  color: #eb2900;
 }
 
 .produtos>li:nth-child(5)::before {
@@ -87,8 +87,7 @@ hr {
 }
 
 .produtos>li:nth-child(5):hover::before {
-  font-weight: bold;
-  color: #ffffff;
+  color: #eb2900;
 }
 
 .jobs {
