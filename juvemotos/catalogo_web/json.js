@@ -1,5 +1,5 @@
 export const catalogData = {
-  "travas": [
+  "Travas": [
     { "img": "./assets/travas/kd6.png", "nome": "Travas Disco com Sistema de Alarme - Linha KD6", "codigo": "KD6-AG", "modelo": "Dourado" },
     { "img": "./assets/travas/kd6.png", "nome": "Travas Disco com Sistema de Alarme - Linha KD6", "codigo": "KD6-BK", "modelo": "Preto" },
     { "img": "./assets/travas/kd6.png", "nome": "Travas Disco com Sistema de Alarme - Linha KD6", "codigo": "KD6-BM", "modelo": "Aço Escovado" },
@@ -73,7 +73,7 @@ export const catalogData = {
     { "img": "./assets/travas/kc002.png", "nome": "Corda - Linha KC", "codigo": "KC002", "modelo": "Verde Limão" },
     { "img": "./assets/travas/kc002.png", "nome": "Corda - Linha KC", "codigo": "KC002", "modelo": "Laranja" }
   ],
-  "oleos": [
+  "Lubrificantes": [
     { "img": "./assets/oleo/4t_semissintetico_10w30_frente.png", "nome": "10w30 4T Semissintético", "caixa": "24 unidades" },
     { "img": "./assets/oleo/4t_mineral_20w50_frente.png", "nome": "20w50 4T Mineral", "caixa": "24 unidades" },
     { "img": "./assets/oleo/atf_dextron_III_frente.png", "nome": "ATF DEXTRON III Automotivo", "caixa": "24 unidades" },
@@ -91,7 +91,7 @@ export const catalogData = {
     { "img": "./assets/oleo/idemitsu_ifg_3_gasolina_etanol_gnv_0w-20.jpg", "nome": "IGF3 0W20 GAS/ETA GNV AUTOMOTIVO", "caixa": "24 unidades" },
     { "img": "./assets/oleo/idemitsu_ifg_3_gasolina_etanol_gnv_10w-30.jpg", "nome": "IGF3 10W30 GAS/ETA GNV AUTOMOTIVO", "caixa": "24 unidades" }
   ],
-  "bagageiros": [
+  "Bagageiros": [
     { "img": "./assets/bagageiro/titan_150_ate_2008_preto.jpg", "nome": "Titan 150 até 2008", "cor": "Preto", "codigo": "NKMP1011" },
     { "img": "./assets/bagageiro/fan_160_14a16_cg_150_14_a_15.jpg", "nome": "Fan 160 14A16 / CG 150 14A 15", "codigo": "NKMP1003" },
     { "img": "./assets/bagageiro/fazer_fz_25_2018_2020.jpg", "nome": "Fazer FZ 25 - 2018-2020", "codigo": "NKMP1006" },
@@ -101,15 +101,15 @@ export const catalogData = {
     { "img": "./assets/bagageiro/yamaha_factor_125_17_a_20_150.jpg", "nome": "Yamaha Factor 125 - 17 a 20/150", "codigo": "NKMP1007" },
     { "img": "./assets/bagageiro/titan2005_150.jpg", "nome": "Bagageiro Titan 2005 150 (Motoboy)", "codigo": "NKMP1016" }
   ],
-  "estribos": [
+  "Estribos": [
     { "img": "./assets/estribo/estribo_cg_160.jpg", "nome": "Estribo CG 160", "codigo": "1005" }
   ],
-  "racks": [
+  "Racks": [
     { "img": "./assets/rack/honda_pcx_mxr_09.jpg", "nome": "Rack Honda PCX 150 MXR-09", "codigo": "NKMP1012" },
     { "img": "./assets/rack/honda_pcx_150_ate_2021.jpg", "nome": "Rack Honda PCX 150 até 2021", "codigo": "NKMP1013" },
     { "img": "./assets/rack/cargo_2000_em_diante.jpg", "nome": "Rack de Carga - Cargo 2000 em diante", "codigo": "NKMP1022" }
   ],
-  "coxins": [
+  "Coxins": [
     { "img": "./assets/coxin/11301_coxin_da_coroa_biz_100.jpg", "nome": "Coxim da Coroa Biz 100", "codigo": "11301" },
     { "img": "./assets/coxin/11401_coxin_da_coroa_biz_125.jpg", "nome": "Coxim da Coroa Biz 125", "codigo": "11401" },
     { "img": "./assets/coxin/12001_coxin_da_coroa_dream_shineray_traxx.jpg", "nome": "Coxim da Coroa Dream/Shineray/Traxx", "codigo": "12001" },
@@ -123,7 +123,7 @@ export const catalogData = {
     { "img": "./assets/coxin/7901_coxin_roda_traseira_da_titan_cg_150-160___fan-todas.jpg", "nome": "Coxim Roda Traseira da Titan CG 150-160/Fan-Todas", "codigo": "7901" },
     { "img": "./assets/coxin/8001_coxin_roda_traseira_da_twister__cb-300.jpg", "nome": "Coxim Roda Traseira da Twister/CB-300", "codigo": "8001" }
   ],
-  "pastilhas": [
+  "Pastilhas": [
     { "img": "./assets/pastilha/pastilha_de_freio_160-_start_600-_fan_160_dianteira.png", "nome": "Pastilha de Freio 160-Start 600-Fan 160 Dianteira", "codigo": "50401"},
     { "img": "./assets/pastilha/pastilha_de_freio_cb300-_xre300_c_abs-_hornet_600_s_abs_traseira.png", "nome": "Pastilha de Freio CB300-XRE300 C/ABS-Hornet 600 S/ABS Traseira", "codigo": "49801" },
     { "img": "./assets/pastilha/pastilha_de_freio_cb500-_cb_300_traseira.png", "nome": "Pastilha de Freio CB500-CB 300 Traseira", "codigo": "49601" },
@@ -142,7 +142,7 @@ export const catalogData = {
     { "img": "./assets/pastilha/pastilha_freio_yes_xtz-_125_dianteira_dianteira.png", "nome": "Pastilha de Freio Titan 150/160-Bros 160 Dianteira", "codigo": "49301" },
     { "img": "./assets/pastilha/pastilha_freio_nmax_150_160_dianteira.png", "nome": "Pastilha de Freio Yes XTZ-125 Dianteira", "codigo": "48801" }
   ],
-  "kits": [
+  "Kits": [
     { "img": "./assets/kits/dominator.jpg", "nome": "Kit Trans CG 125 Standard Fan/Titan", "codigo": "35101" },
     { "img": "./assets/kits/dominator.jpg", "nome": "Kit Trans CG 150 Titan Mix/Fan/ES/KS Standard", "codigo": "35201" },
     { "img": "./assets/kits/dominator.jpg", "nome": "Kit Trans CG 160 Titan 15/ Standard", "codigo": "35301" },
