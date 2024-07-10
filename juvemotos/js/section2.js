@@ -3,18 +3,21 @@ import { data_dco } from "../data/data-dco.js";
 let jobs = document.querySelector('.jobs')
 
 data_dco.forEach( i => {
-  console.log(i.thumb)
-  makeJob(i.thumb, i.cliente, i.descricao)
+  makeJob(i.thumb, i.cliente, i.descricao, i.url)
 })
 
 
 
-function makeJob(thumb, cliente, descricao) {
+function makeJob(thumb, cliente, descricao, url) {
+
+  let link = document.createElement('a')
+  link.setAttribute('href', url)
+  jobs.appendChild(link)
  
   let div1 = document.createElement('DIV')
   div1.className = 'job thumb'
   div1.style.backgroundImage = `url(${thumb})`
-  jobs.appendChild(div1)
+  link.appendChild(div1)
   
   let div3 = document.createElement('DIV')
   div3.className = 'job-description'
