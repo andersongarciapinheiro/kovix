@@ -132,7 +132,7 @@ h2 {
   max-width: 625px;
   background-color: #2f2f2f;
   border-radius: 0 0 10px 10px;
-  border: 30px solid #2f2f2f;
+  padding: 0 15px 15px 15px;
 }
 
 .images {
@@ -159,26 +159,25 @@ h2 {
   transform: translateY(-50%);
   width: 100%;
   max-width: 595px;
-
 }
 
 .arrow-left,
 .arrow-right {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   transition: 0.2s;
 
 }
 
 .arrow-left {
   left: 0;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .arrow-right {
   right: 0;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .arrow-left:hover,
@@ -186,6 +185,25 @@ h2 {
   transform: scale(1.1);
 }
 
+
+@media only screen and (max-width: 2000px) {
+
+  .arrow-left {
+    margin-left: 2px;
+  }
+  
+  .arrow-right {
+    margin-right: 2px;
+  }
+
+  .descricao {
+    max-width: 540px;
+  }
+
+  .modal-content {
+    max-width: 540px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .arrow-left,

@@ -5,7 +5,7 @@ function createProductHTML(product) {
   return `
     <div class="product" data-nome="${product.nome.toLowerCase()}">
     <div class="img">
-      <img src="${product.img3}" alt="">
+      <img src="${product.img}" alt="">
     </div>
   `;
 }
