@@ -89,6 +89,10 @@ h2 {
 
 .modal {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   top: 0;
   left: 0;
   background-color: #000000de;
@@ -97,19 +101,38 @@ h2 {
   z-index: 999;
 }
 
+
+.modal-content-product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+
 .modal-content {
-  position: fixed;
+  position: relative;
   display: flex;
-  width: 655px;
-  max-width: 95%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 625px;
   overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  /* Cor de fundo para o conteúdo modal */
-  border-radius: 10px;
-  border: 30px solid #ffffff;
+  background-color: #2f2f2f;
+  border-radius: 10px 10px 0 0;
+  border: 15px solid #2f2f2f;
+}
+
+.descricao {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 625px;
+  background-color: #2f2f2f;
+  border-radius: 0 0 10px 10px;
+  border: 30px solid #2f2f2f;
 }
 
 .images {
@@ -169,9 +192,5 @@ h2 {
   .arrow-right {
     width: 25px;
     height: 25px;
-  }
-
-  .modal-content {
-    border: 15px solid #ffffff;
   }
 }
