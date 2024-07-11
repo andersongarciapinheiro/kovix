@@ -34,6 +34,7 @@ function productModel(kovixjason) {
   let product = document.querySelectorAll('.product')
   let modal = document.querySelector('.modal')
   let modalContent = document.querySelector('.modal-content');
+  let txtDescription = document.querySelector('.descricao');
   let images = document.querySelector('.images');
   let arrowLeft = document.querySelector('.arrow-left')
   let arrowRight = document.querySelector('.arrow-right')
@@ -68,6 +69,10 @@ function productModel(kovixjason) {
   }
 
   modalContent.addEventListener('click', function (event) {
+    event.stopPropagation();
+  })
+
+  txtDescription.addEventListener('click', function (event) {
     event.stopPropagation();
   })
 

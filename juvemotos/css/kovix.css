@@ -135,6 +135,16 @@ h2 {
   padding: 0 15px 15px 15px;
 }
 
+.descricao p {
+  margin: 0;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  text-align: left;
+  font-family: monospace;
+}
+
 .images {
   display: flex;
   transition: 0.2s ease-in;
