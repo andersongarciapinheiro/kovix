@@ -58,7 +58,7 @@ function productModel(kovixjason) {
     images.style.transform = "translate(0%)";
   })
   arrowRight.addEventListener('click', function() {
-    images.style.transform = "translate(-50%)";
+    images.style.transform = "translate(-100%)";
   })
 
   function modalCreateImage(imgJson, imgJson2) {

@@ -97,10 +97,10 @@ h2 {
 }
 
 .modal-content {
-  position: absolute;
+  position: fixed;
   display: flex;
-  width: 100%;
-  max-width: 655px;
+  width: 655px;
+  max-width: 90%;
   overflow: hidden;
   top: 50%;
   left: 50%;
@@ -113,6 +113,11 @@ h2 {
 .images {
   display: flex;
   transition: 0.2s ease-in;
+  width: 100%;
+}
+
+.images img {
+  width: 100%;
 }
 
 .translate {
