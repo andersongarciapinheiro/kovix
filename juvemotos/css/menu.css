@@ -6,6 +6,7 @@ body {
 header {
   position: fixed;
   left: 50%;
+  height: 100px;
   transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
@@ -15,14 +16,14 @@ header {
   background-color: #000000a1; /* Cor de fundo do cabeçalho */
   color: white; /* Cor do texto no cabeçalho */
   width: 100%;
-  margin: 20px auto;
+  margin: 10px auto;
   z-index: 9999;
   transition: .1s;
   box-shadow: #000000a1 0 0 2px 10px;
 }
 
 #logo > a > img {
-  width: 200px;
+  width: 160px;
 }
 
 /* sandwichmenu */
