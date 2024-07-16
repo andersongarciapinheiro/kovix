@@ -8,9 +8,14 @@ footer {
   width: 100%;
   padding: 30px 30px;
   background-color: #151515;
-  margin-top: 60px;
   z-index: -1;
+  height: 300px;
 }
+
+
+ footer p {
+  color: #fff;
+ }
 
 .txt-1 > p {
   text-align: center;
