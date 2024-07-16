@@ -47,19 +47,27 @@ function productModel(kovixjason) {
       Object.keys(kovixjason).forEach(section => {
         let img = kovixjason[section][index].img
         let img2 = kovixjason[section][index].img2
+        let img3 = kovixjason[section][index].img3
         let applyImg = modalCreateImage(img)
         let applyImg2 = modalCreateImage(img2)
+        let applyImg3 = modalCreateImage(img3)
         images.appendChild(applyImg)
         images.appendChild(applyImg2)
+        images.appendChild(applyImg3)
       })
     })
   })
 
+  let tranformPosition = 0
+
   arrowLeft.addEventListener('click', function() {
-    images.style.transform = "translate(0%)";
+    console.log(tranformPosition)
+    if(tranformPosition < 0) {tranformPosition = tranformPosition + 100}
+    images.style.transform = `translate(${tranformPosition}%)`;
   })
   arrowRight.addEventListener('click', function() {
-    images.style.transform = "translate(-100%)";
+    if(tranformPosition >= -100) {tranformPosition = tranformPosition - 100}
+    images.style.transform = `translate(${tranformPosition}%)`;
   })
 
   function modalCreateImage(imgJson, imgJson2) {
@@ -69,10 +77,6 @@ function productModel(kovixjason) {
   }
 
   modalContent.addEventListener('click', function (event) {
-    event.stopPropagation();
-  })
-
-  txtDescription.addEventListener('click', function (event) {
     event.stopPropagation();
   })
 

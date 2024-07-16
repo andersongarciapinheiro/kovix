@@ -121,7 +121,7 @@ h2 {
   max-width: 625px;
   overflow: hidden;
   background-color: #2f2f2f;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
   border: 15px solid #2f2f2f;
 }
 

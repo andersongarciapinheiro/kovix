@@ -1,0 +1,19 @@
+.section-parallax {
+  position: relative;
+  height: 400px; /* Altura da seção */
+  overflow: hidden;
+}
+
+.bg-parallax {
+  background-image: url('../assets/banner/bgparallax.jpg');
+  background-size: cover;
+  background-attachment: fixed; /* Isso ajuda a criar o efeito parallax */
+  background-position: center;
+  width: 100%;
+}
+
+.window {
+  height: 400px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3); /* Adiciona um fundo semi-transparente para a div interna */
+}
