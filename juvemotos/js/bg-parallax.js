@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function movimentBg() {
     const scrollPosition = window.scrollY;
     // Ajusta o valor para um movimento mais suave. Experimente diferentes valores para ajustar a velocidade do efeito.
-    const parallaxSpeed = 0.2;
+    const parallaxSpeed = 0.01;
 
     // Calcula a nova posição da imagem de fundo
     const backgroundPositionY = scrollPosition * parallaxSpeed;

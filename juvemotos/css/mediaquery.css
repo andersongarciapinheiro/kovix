@@ -1,0 +1,42 @@
+/* WQHD */
+@media only screen and (max-device-width: 2559px), only screen and (max-width: 2559px) {
+  #section1 {max-height: 1079px;}
+  .img1-banner img {width: calc(912px - 390px);}
+  .img2-banner img {width: calc(1188px - 500px);}
+  .img3-banner img {width: calc(1188px - 300px);}
+  .section3-title {max-width: 900px;}
+  .section3-title-h1 {font-size: 40px;}
+  #section3 p, #section3 li {font-size: 18px;}
+  .proposito {position: fixed; top: 250px;}
+  .div-valores {right: 6%; max-width: 900px; margin-top: 0px;}
+  }
+
+/* Full HD */
+@media (max-width: 1920px) {
+  /* Estilos para telas Full HD */
+}
+
+/* HD */
+@media (max-width: 1366px) {
+  /* Estilos para telas HD */
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  /* Estilos para tablets */
+}
+
+/* Small Tablet */
+@media (max-width: 768px) {
+  /* Estilos para tablets pequenos ou paisagem */
+}
+
+/* Large Smartphone */
+@media (max-width: 480px) {
+  /* Estilos para smartphones grandes */
+}
+
+/* Smartphone */
+@media (max-width: 320px) {
+  /* Estilos para smartphones */
+}
