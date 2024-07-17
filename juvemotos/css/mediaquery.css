@@ -1,4 +1,4 @@
-/* WQHD */
+/* Full HD 1920 */ 
 @media only screen and (max-device-width: 2559px), only screen and (max-width: 2559px) {
   #section1 {max-height: 1079px;}
   .img1-banner img {width: calc(912px - 390px);}
@@ -11,32 +11,50 @@
   .div-valores {right: 6%; max-width: 900px; margin-top: 0px;}
   }
 
-/* Full HD */
-@media (max-width: 1920px) {
-  /* Estilos para telas Full HD */
-}
+/* HD 1366 */
+@media only screen and (max-device-width: 1919px), only screen and (max-width: 1919px) {
+  #section1 {max-height: 768px;}
+  .section1-title-h1 {font-size: 25px;}
+  .section-parallax {height: 240px;}
+  .section-parallax .txt h1 {font-size: 30px;}
+  .job {width: 300px;height: 300px;}
+  #section4 h1 {font-size: 30px;}
+  #section4 p {font-size: 16px;}
+  .section4-txt {max-width: 460px;}
+  .img1-banner img {width: calc(912px - 460px);}
+  .img2-banner img {width: calc(1188px - 560px);}
+  .img3-banner img {width: calc(1188px - 550px);}
+  .img3-banner {margin-top: 20px;}
+  .section3-title {max-width: 600px; left: 25.5%;}
+  .section3-title-h1 {font-size: 25px;}
+  #section3 p, #section3 li {font-size: 16px;}
+  .sobre-nos {position: fixed; top: -50px;}
+  .proposito {position: fixed; top: 200px;}
+  .div-valores {right: 6%; max-width: 600px; margin-top: -40px;}
+  .valores {max-width: 430px;}
+  }
 
-/* HD */
+/* Tablet 1024*/
 @media (max-width: 1366px) {
   /* Estilos para telas HD */
 }
 
-/* Tablet */
+/* Small Tablet 768 */
 @media (max-width: 1024px) {
   /* Estilos para tablets */
 }
 
-/* Small Tablet */
+/* Large Smartphone 480*/
 @media (max-width: 768px) {
   /* Estilos para tablets pequenos ou paisagem */
 }
 
-/* Large Smartphone */
+/* Smartphone 320*/
 @media (max-width: 480px) {
   /* Estilos para smartphones grandes */
 }
 
-/* Smartphone */
+
 @media (max-width: 320px) {
   /* Estilos para smartphones */
 }
