@@ -9,7 +9,7 @@ function createProductHTML(product) {
     </div>
       <div class="desc">
         <h3>${product.nome}</h3>
-        <p>${product.codigo ? "Código: " + product.codigo : ""}</p>
+        <p>${product.linha ? "Linha: " + product.linha : ""}</p>
         <p>${product.caixa ? "Caixa com " + product.caixa : ""}</p>
         <p>${product.cor ? "Cor: " + product.cor : ""}</p>
         <p>${product.modelo ? "Modelo: " + product.modelo : ""}</p>
@@ -44,7 +44,7 @@ function filterProducts() {
   products.forEach(product => {
     const productName = product.getAttribute('data-nome');
     if (productName.includes(searchInput)) {
-      product.style.display = 'block';
+      product.style.display = 'flex';
     } else {
       product.style.display = 'none';
     }

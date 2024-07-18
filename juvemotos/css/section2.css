@@ -6,6 +6,10 @@
   background-color: #fff;
 }
 
+.jobs img {
+  width: 100%;
+}
+
 .section2-title {
   position: relative;
   max-width: 900px;
@@ -105,6 +109,11 @@ hr {
   height: 400px;
   background: #555;
   cursor: pointer;
+  
+}
+
+.job img{
+  transition: 0.2s;
 }
 
 .job-description {
@@ -154,6 +163,11 @@ hr {
 .job-description:hover {
   opacity: 1;
   background-color: #000000f1
+
+}
+
+.job:hover img {
+ transform: scale(1.2);
 
 }
 
