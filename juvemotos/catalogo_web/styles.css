@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #000000;
+  background-color: #232323;
   color: #fff;
   padding: 0 0 20px 0;
   text-align: center;
@@ -19,10 +19,15 @@ header {
 
 .banner {
   width: 100%;
+  padding: 30px;
 }
 .banner img {
-  max-width: 1350px;
+  max-width: 370px;
   width: 100%;
+}
+
+h1 {
+  margin: 0;
 }
 
 .search-bar {
