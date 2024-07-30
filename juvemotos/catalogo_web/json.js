@@ -1,5 +1,5 @@
 export const catalogData = {
-  "Travas": [
+  "Produtos": [
     { "img": "./assets/travas/kd6.png", "nome": "Trava de disco", "linha": "KD6", "modelo": "Com alarme" },
     { "img": "./assets/travas/kaz10.png", "nome": "Trava de disco", "linha": "KAZ10", "modelo": "Com alarme" },
     { "img": "./assets/travas/kal10.jpg ", "nome": "Trava de disco", "linha": "KAL10", "modelo": "Com alarme" },

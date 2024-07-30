@@ -51,16 +51,6 @@ function filterProducts() {
   });
 }
 
-function closeTitle() {
-  const section = document.querySelectorAll('section');
-  section.forEach(i => {
-    if(i.offsetHeight < 10) {
-      i.previousElementSibling.style.display = 'none'
-    } else {
-      i.previousElementSibling.style.display = 'flex'
-    }
-  })
-}
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -68,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const searchInput = document.getElementById('search');
   searchInput.addEventListener('input', filterProducts);
-  searchInput.addEventListener('input', closeTitle);
 });
 
 function openMenu() {
