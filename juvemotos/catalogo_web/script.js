@@ -3,7 +3,7 @@ import { catalogData } from './json.js'
 
 function createProductHTML(product) {
   return `
-    <div class="product" data-nome="${product.nome.toLowerCase()}">
+    <div class="product" data-nome="${product.linha.toLowerCase()}">
     <div class="img">
       <img src="${product.img}" alt="">
     </div>
