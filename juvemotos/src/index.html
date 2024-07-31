@@ -67,9 +67,9 @@
             Líderes mundial
           </h1>
         </div>
-        <div class="button-reel">
-          <a href="#section2">PRODUTOS</a>
-        </div>
+        <a href="#section2">
+          <div class="button-reel">PRODUTOS</div>
+        </a>
       </div>
     </div>
   </section>
@@ -327,12 +327,12 @@
             </div>
             <div class="footer-links">
                 <div class="footer-column">
-                    <h3>Produto</h3>
+                    <h3>Produtos</h3>
                     <ul>
-                        <li><a href="#">Travas</a></li>
-                        <li><a href="#">Correntes</a></li>
-                        <li><a href="#">Trava de freio</a></li>
-                        <li><a href="#">Acessórios</a></li>
+                        <li><a href="../catalogo_web/index.html">Travas</a></li>
+                        <li><a href="../catalogo_web/index.html">Correntes</a></li>
+                        <li><a href="../catalogo_web/index.html">Trava de freio</a></li>
+                        <li><a href="../catalogo_web/index.html">Acessórios</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -340,7 +340,7 @@
                     <ul>
                         <li><a href="#section3">Sobre</a></li>
                         <li><a href="../catalogo_web/index.html">Catalogo</a></li>
-                        <li><a href="https://wa.me/5511940813504?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos.">Contato</a></li>
+                        <li><a href="https://wa.me/5511940813504?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos." target="_blank">Contato</a></li>
                         <li><a href="#">Representantes</a></li>
                     </ul>
                 </div>
@@ -348,16 +348,16 @@
                     <h3>Suporte</h3>
                     <ul>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="https://wa.me/5511940813504?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos.">Central de ajuda</a></li>
+                        <li><a href="https://wa.me/5511940813504?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos." target="_blank">Central de ajuda</a></li>
                         <li><a href="#">Termos de Serviço</a></li>
                         <li><a href="#">Politica de privacidade</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>PARCERIAS</h3>
-                    <form class="footer-form">
-                        <input type="email" placeholder="Digite seu email" required>
-                        <button type="submit">Envie seu email</button>
+                    <form id="contact-form" class="footer-form" action="/send-email" method="POST">
+                        <input type="email" id="user_email" name="user_email" placeholder="Digite seu email" required>
+                        <button type="submit" value="Send">Envie seu email</button>
                     </form>
                 </div>
             </div>
@@ -375,7 +375,28 @@
 </footer>
 
 
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init("LfXMdeBKi5yj6-deM");
+    })();
 
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita o envio padrão do formulário
+
+        emailjs.sendForm('service_i207f72', 'template_izxqukq', this)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                let inpuValue = document.querySelector('input')
+                inpuValue.value = 'Email enviado com sucesso!!'
+                setTimeout(() => {
+                  inpuValue.value = ''
+                }, 2000);
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+    });
+</script>
   
 </body>
 </html>

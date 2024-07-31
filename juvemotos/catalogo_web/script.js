@@ -23,7 +23,7 @@ function createProductDetailHTML(product, description) {
   return `
     <div class="produto">
       <div class="produto-title">
-        <h3>${product.nome}</h3>
+        <h3>${product.linha}</h3>
       </div>
       <div class="produto-img">
         <img src="${product.img}" alt="">
