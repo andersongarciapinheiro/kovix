@@ -1,5 +1,4 @@
 
-
 .section-faq {
   position: relative;
   display: flex;
@@ -31,6 +30,12 @@
   align-items: center;
   justify-content: space-between;
 }
+.section-faq h1,
+.section-faq p {
+  line-height: 1.2;
+}
+
+
 .title h1 {
   font-weight: bold;
   font-size: 20px;

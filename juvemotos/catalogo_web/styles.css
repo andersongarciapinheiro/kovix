@@ -180,6 +180,10 @@ button {
 }
 
 .produto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   position: relative;
   left: 50%;
   top: 50%;
@@ -193,13 +197,6 @@ button {
   opacity: 1;
 }
 
-.produto {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 30px 0 0 0;
-}
 
 .produto-img,
 .produto-desc {
@@ -249,6 +246,16 @@ button {
   width: 100%;
 }
 
+@media only screen and (max-width: 1599px) {
+  .produto-img img {
+    max-width: 200px;
+  }
+  .produto {
+    width: 90%;
+    height: 90%;
+  }
+}
+
 @media only screen and (max-width: 1250px) {
   main {
     margin-top: 30px;
@@ -270,4 +277,5 @@ button {
     justify-content: center;
     align-items: center;
   }
+
 }
