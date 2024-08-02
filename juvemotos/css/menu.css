@@ -34,6 +34,7 @@ header {
 
 #sandwichmenu {
   cursor: pointer;
+  display: none;
 }
 
 .bar {
@@ -116,7 +117,7 @@ header {
 }
 
 .toggle-menu {
-  transform: translateY(0) translateX(-50%);
+  right: 0 !important;
 }
 
 .none {
