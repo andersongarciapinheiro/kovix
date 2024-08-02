@@ -318,6 +318,7 @@ only screen and (max-width: 1919px) {
   .img3-banner img {
     width: calc(1188px - 810px);
   }
+
   .img3-banner {
     margin-top: 330px;
   }
@@ -331,11 +332,110 @@ only screen and (max-width: 1919px) {
     max-width: 380px;
   }
 
+  .icon-wpp {
+    max-width: 50px;
+  }
+
 }
 
 /* Large Smartphone 480*/
 @media (max-width: 768px) {
-  /* Estilos para tablets pequenos ou paisagem */
+  .reel>video {
+    width: 180%;
+    right: 180px;
+  }
+
+  .section4-content {
+    width: 80%;
+  }
+
+  .section2-title-h1 {
+    font-size: 30px;
+  }
+
+  .section-parallax {
+    height: 130px;
+  }
+
+  .bg-parallax {
+    background-position-x: -110px;
+  }
+
+  .section-parallax .txt h1 {
+    font-size: 20px;
+  }
+
+  .sobre-nos {
+    width: 440px;
+    top: -70px;
+  }
+
+  .section3-title-h1 {
+    font-size: 20px;
+  }
+
+  .sobre-nos hr {
+    margin-right: auto;
+  }
+
+  .sobre-nos p {
+    text-align: center;
+  }
+
+  .img1-banner {
+    padding-top: 290px;
+  }
+
+  .img1-banner img {
+    width: calc(912px - 600px);
+  }
+
+  .img2-banner img {
+    width: calc(1188px - 770px);
+    margin-top: 0px;
+    margin-right: 40px;
+  }
+
+  .proposito {
+    top: 650px;
+    width: 440px;
+  }
+
+  .proposito .section3-title-h1 {
+    margin-right: 0px;
+  }
+
+  .proposito hr {
+    margin-bottom: 10px;
+    margin-right: auto;
+  }
+
+  .proposito p {
+    text-align: center;
+  }
+
+  .div-valores {
+    margin-top: 310px;
+    width: 440px;
+  }
+
+  .img3-banner img {
+    width: calc(1188px - 708px);
+  }
+
+  .div-valores {
+    margin-top: 310px;
+    width: 440px;
+    right: 4%;
+  }
+
+  .img3-banner {
+    margin-top: 660px;
+  }
+
+  .footer-description p {
+    text-align: center;
+  }
 }
 
 /* Smartphone 320*/
