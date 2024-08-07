@@ -438,9 +438,46 @@ only screen and (max-width: 1919px) {
   }
 }
 
-/* Smartphone 320*/
-@media (max-width: 480px) {
-  /* Estilos para smartphones grandes */
+/* Smartphone 420*/
+@media (max-width: 479px) {
+  .reel>video {
+    width: 185%;
+  }
+
+  .sobre-nos,
+  .proposito {
+    width: 370px;
+  }
+
+  .img1-banner {
+    padding-top: 310px;
+  }
+  .img3-banner {
+    padding-top: 50px;
+  }
+
+  .img1-banner img {
+    width: calc(912px - 680px);
+  }
+
+  .img2-banner img {
+    width: calc(1188px - 880px);
+    margin-top: 0px;
+    margin-right: 26px;
+  }
+
+  .img3-banner img {
+    width: calc(1188px - 800px);
+  }
+
+  .proposito .section3-title-h1 {
+    margin-top: 0px;
+  }
+
+  .div-valores {
+    margin-top: 370px;
+    width: 370px;
+  }
 }
 
 
