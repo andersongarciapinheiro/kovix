@@ -440,6 +440,18 @@ only screen and (max-width: 1919px) {
 
 /* Smartphone 420*/
 @media (max-width: 479px) {
+  header {
+    height: 40px;
+  }
+
+  #logo>a>img {
+    width: 120px;
+  }
+
+  .nav-menu {
+    height: 30vh;
+  }
+
   .reel>video {
     width: 185%;
   }
@@ -452,6 +464,7 @@ only screen and (max-width: 1919px) {
   .img1-banner {
     padding-top: 310px;
   }
+
   .img3-banner {
     padding-top: 50px;
   }
@@ -481,6 +494,22 @@ only screen and (max-width: 1919px) {
 
   .footer-links {
     flex-wrap: nowrap;
+  }
+
+  .div-valores h1 {
+    margin-right: 40px;
+  }
+
+  .div-valores hr {
+    margin-right: 152px;
+  }
+
+  .valores {
+    max-width: 350px;
+  }
+
+  #section3 li {
+    font-size: 15px;
   }
 }
 
